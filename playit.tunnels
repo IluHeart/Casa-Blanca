@@ -1,0 +1,104 @@
+{
+  "tcp_alloc": {
+    "allowed": 16,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "centre-trivia.gl.joinmc.link",
+          "assigned_srv": "centre-trivia.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "b1fcacf8-8638-4b29-aa0b-a9dc174a3c76",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 2413,
+          "port_start": 2412,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-08T15:18:59.418432Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "c34132ab-8b19-47c6-9cf0-68be34a42693",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "4d031582-6725-4bbd-bd4b-c27ad35fc35e",
+          "agent_name": "CasaBlanca",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "washington-dylan.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "27b8db1d-c63a-481e-ba5c-ca558aa384a9",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 1854,
+          "port_start": 1853,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-17T11:30:25.512721Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "e10dac5e-a1d4-4d10-84d2-66fbbc7bd396",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "4d031582-6725-4bbd-bd4b-c27ad35fc35e",
+          "agent_name": "CasaBlanca",
+          "local_ip": "127.0.0.1",
+          "local_port": 1853
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 16,
+    "claimed": 1,
+    "desired": 1
+  }
+}
